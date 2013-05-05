@@ -1,0 +1,73 @@
+<!Doctype HTML>
+<html>
+	
+	<head>
+	</head>
+	
+	<body>
+		<div id="tableauCours"></div>
+		<script>
+			var cours = [	"Session 1",
+						"Mathématiques appliquées à l'informatique", "201-TC2-DM", "./page-en-construction.html", 
+						"Fonction de travail en informatique", "420-FT1-DM", "./page-en-construction.html",
+						"Algorythmes et programmation", "420-PRA-DM", "./page-en-construction.html",
+						"Système d'exploitation I", "420-SE1-DM", "./page-en-construction.html",
+						"Outils multimédia", "420-CM1-DM", "./page-en-construction.html",
+					"finSession",
+
+					"Session 2",
+						"Système d'information des entreprises", "401-TC1-DM", "./page-en-construction.html",
+						"Conception et développement d'une application hypermédia I", "420-CN1-DM", "./cours/420-CN1-DM.html",
+						"Base de données I", "420-BD1-DM", "./page-en-construction.html",
+						"Programmation structurée", "420-PRS-DM", "./page-en-construction.html",
+					"fin Session",
+
+					"Session 3",
+						"Statistiques et probabilités", "201-TC1-DM", "./page-en-construction.html", 
+						"Initiation à l'ordinateur et ses composants", "243-TC1-DM", "./page-en-construction.html",
+						"Système d'exploitation II", "420-SE2-DM", "./page-en-construction.html",
+						"Programmation orientée par objet I", "420-PR3-DM", "./page-en-construction.html",
+						"Structure de données", "420-SD2-DM", "./page-en-construction.html",
+						"Production d'un interface utilisateur", "420-UC1-DM", "./page-en-construction.html",
+					"finSession",
+
+					"Session 4",
+						"Base de données II", "420-BD2-DM", "./page-en-construction.html", 
+						"Conception de systèmes", "420-CS1-DM", "./page-en-construction.html",
+						"Programmation orientée par objet 2", "420-PRB-DM", "./page-en-construction.html",
+						"Réseaux I", "420-REA-DM", "./page-en-construction.html",
+						"Documentation informatique et gestion de documents", "420-DC1-DM", "./page-en-construction.html",
+					"finSession",
+
+					"Session 5",
+						"Interaction et communication", "350-TC1-DM", "./page-en-construction.html", 
+						"Réseaux II", "420-REB-DM", "./page-en-construction.html",
+						"Outils et développement d'application", "420-DD1-DM", "./page-en-construction.html",
+						"Développement et mise en oeuvre I", "420-DM1-DM", "./page-en-construction.html",
+						"Conception et développement d'une application hypermédia II", "420-CN2-DM", "./page-en-construction.html",
+					"finSession",
+
+					"Session 6",
+						"Soutiens technique en informatique", "420-TE1-DM", "./page-en-construction.html", 
+						"Développement et mise en oeuvre II", "420-DM2-DM", "./page-en-construction.html",
+						"Expérience en milieu de travail I", "420-EMT-DM", "./page-en-construction.html",
+						"Expérience en milieu de travail II", "420-MDT-DM", "./page-en-construction.html",
+						"Gestion de projets", "420-GP2-DM", "./page-en-construction.html",
+					"finSession",
+			"finCours"];
+
+			var i = 1;
+			while (cours[i] != "finSession") {
+				unLien = document.createElement("a");
+				unLien.href = cours[i+2];
+				unLien.innerHTML = cours[i]+" "+cours[i+1];
+				unLi = document.createElement("li");
+				unLi.appendChild(unLien);
+				unUl.appendChild(unLi);
+				liSession.appendChild(unUl);
+			}
+			while (cours[i] != "finCours") {
+		</script>
+	</body>
+
+</html>
