@@ -1,0 +1,137 @@
+<!Doctype HTML>
+
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width = device-width, initial-scale = 1.0"/>
+		<!--
+			CSS principale pour l'ensemble du site.
+		-->
+		<link rel="stylesheet" href="../../CSS/style.css">
+		<!--
+			CSS secondaire pour le menu uniquement.
+		-->
+		<link rel="stylesheet" href="../../CSS/style-du-menu.css">
+		<title>420-CN1-DM</title>
+		<meta name="application-name" content="HTML-Doc">
+		<meta name="description" content="Documentation du code de notre TP3.">
+		<meta name="keywords" content="HTML,TP3,Documentation">
+		<meta name="author" content="David Brousseau et Karyne Robidas-Bathalon">
+	<!--
+		Documentation du code de notre TP3
+		(version 1.0, 28 avril 2013)
+		Ce fichier de documentation html donne un apperçu des apprentissages
+		acquis pour faire notre TP3 dans le cours de Conception et développement
+		d'une application hypermédia.  	 
+	
+		Copyright (C)  2013  DAVID BROUSSEAU & KARYNE ROBIDAS-BATHALON.
+
+			Permission is granted to copy, distribute and/or modify this document
+			under the terms of the GNU Free Documentation License, Version 1.3 or
+			any later version published by the Free Software Foundation; with no
+			Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A
+			copy of the license is included in the section entitled "GNU Free
+			Documentation License".
+	-->
+	</head>
+	<body>
+	<!--
+		Regroupement de tous les sous-divs. 
+	-->
+	<div id="div-body">
+		<!--
+			Contient le logo. 
+		-->
+		<div id="logo">
+			<!--
+				Libre de droit pris sur Wiki.
+			-->
+			<img src="../../images/logocdd.png" alt="Cégep de Drummondville"/>
+		</div>
+		<!--
+			Contient la bannière.
+		-->
+		<div id="banniere">
+			<!--
+				Créé par Karyne
+			-->
+			<img src="../../images/banniereinfo.png" alt="Département de l'informatique"/>
+		</div>
+		<!--
+			Contient le menu déroulant.
+			Basé sur le modèle de
+			http://www.easytutoriel.com/comment-creer-un-menu-deroulant-en-css-sans-javascript/
+			et modifié dans le cadre d'un projet scolaire.
+		-->
+		<div id="navbar">
+				<ul id="menu">
+				<li><a href="../../index.html">Accueil</a></li>
+				<li><a href="">Programme</a>
+					<ul class="sous-menu">
+						<li><a href="../sommaire-du-programme.html">Sommaire</a></li>
+						<li><a href="../cours/420-CN1-DM.html">Liste de cours</a>
+							<ul class="sous--menu">
+								<li><a href="../page-en-construction.html">Système d'exploitation I</a></li>
+								<li><a href="./420-CN1-DM.html">Conception et développement d'uneapplication 									hypermédia I</a></li>
+								<li><a href="../page-en-construction.html">Programmation orientée par objet 									I</a></li>
+								<li><a href="../page-en-construction.html">Base de données II</a></li>
+								<li><a href="../page-en-construction.html">Réseau II</a></li>
+								<li><a href="../page-en-construction.html">Soutien technique en 								informatique</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><a href="">Professeurs</a>
+					<ul class="sous-menu">
+						<li><a href="../page-en-construction.html">Guy Bernard</a></li>
+						<li><a href="../professeurs/benoit-desrosiers.html">Benoît Desrosiers</a></li>
+						<li><a href="../page-en-construction.html">Jonathan Gareau</a></li>
+						<li><a href="../page-en-construction.html">Sylvie L'Heureux</a></li>
+						<li><a href="../page-en-construction.html">Louis Marchand</a></li>
+					</ul>
+				</li>
+				<li><a href="../page-en-construction.html">Salle de presse</a></li>
+				<li><a href="../album-dactivites.html">Activités</a></li>
+			</ul>
+		</div>
+		<!--
+			Contient les éléments de contact.
+		-->
+		<div id="nousrejoindre">	
+			<h1>Nous rejoindre :</h1>
+			<p>
+				Département de l'informatique<br/>
+				Cégep de Drummondville<br/>
+				960, rue Saint-Georges<br/>
+				Drummondville, (Québec)<br/>
+				J2C 6A2<br/>
+				Local 2608<br/><br/>
+			</p>
+				<h1>Téléphone :</h1>
+			<p>
+				819-478-4671<br/>
+				Poste 293
+			</p>
+		</div>
+		<!--
+			Contient l'information sur notre emplacement actuel sur le site.
+		-->
+		<div id="breadcrum">
+			<p>Programme > Liste de cours > Conception et développement d'une application hypermédia </p>
+		</div>
+		<!--
+			Contient les éléments de l'encadré principal. 
+		-->		
+		<div id="CN1">
+				<h2>Conception et développement d'une application hypermédia</h2>
+			<p>
+				Dans ce cours, l'élève procède au développement de sites web statiques. Aux termes de ce cours,
+				l'étudiant aura acquis des connaissances dans les langages de base de tous site web, soit le HTML,
+				le CSS. Il aura aussi été introduit au langage Javascript afin de développer des sites plus avancés.<br/> 
+				<br/>
+				Il n'y a pas de préalable pour ce cours, et il est préalable à 420-CN2.
+			</p>
+		</div>
+	</div>
+	</body>
+</html>

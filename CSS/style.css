@@ -1,0 +1,313 @@
+/*
+	Documentation du code de notre TP3
+	(version 1.0, 28 avril 2013)
+	Ce fichier de documentation html donne un apperçu des apprentissages
+	acquis pour faire notre TP3 dans le cours de Conception et développement
+	d'une application hypermédia.  	 
+
+	Copyright (C)  2013  DAVID BROUSSEAU & KARYNE ROBIDAS-BATHALON.
+
+		Permission is granted to copy, distribute and/or modify this document
+		under the terms of the GNU Free Documentation License, Version 1.3 or
+		any later version published by the Free Software Foundation; with no
+		Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A
+		copy of the license is included in the section entitled "GNU Free
+		Documentation License".
+*/
+
+/*
+	Image libre de droit pris sur Wallpaperdev; ils veulent qu'on la partage.
+*/
+body{
+	background: url('../images/lightabstract.jpg');
+}
+
+/*
+	Mise en page de l'encadré principal.
+	<div id="div-body">...</div>
+*/
+#div-body{
+	position: relative;
+	margin: 0 auto;
+	max-width: 100%;
+	min-width: 60%;
+}
+
+/*
+	Mise en page des titres de niveau 1.
+	<h1>...</h1>
+*/
+h1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/*
+	Mise en page des titres de niveau 2.
+	<h2>...</h2>
+*/
+h2{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/*
+	Positionnement du logo.
+	<div id="logo">...</div>
+*/
+#logo{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 152px;
+	height: 171px;
+	background-color: white;
+	border: 2px solid #ffccff;
+	margin: 2px;
+}
+
+/*
+	Positionnement de l'encadré qui contient notre emplacement sur le site.
+	<div id="breadcrum">...</div>
+*/
+#breadcrum{
+	position: absolute;
+	top: 179px;
+	left: 160px;
+	width: 850px;
+	height: 30px;
+	font-style: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: white;
+}
+
+/*
+	Positionnement de l'encadré qui contient les informations de contact.
+	<div id="nousrejoindre">...</div>
+*/
+#nousrejoindre{
+	position: absolute;
+	top: 239px;
+	left: 0;
+	width: 148px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: white;
+	border: 2px solid #ffccff;
+	margin: 2px;
+	padding: 2px;
+}
+
+/*
+	Mise en page de l'encadré principal de la page construction.
+	Image pris sur un forum linux libre de droit.
+	<div id="construction">...</div>
+*/
+#construction{
+	position: absolute;
+	top: 269px;
+	left: 160px;
+	width: 850px;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: blink;
+	color: #ffff99;
+	margin: 0;
+	padding: 0;
+}
+
+/*
+	Mise en page des liens sur l'accueil.
+	<div id="liens">...</div>
+*/
+#liens{
+	position: absolute;
+	top: 179px;
+	left: 0px;
+	width: 148px;
+	height: 48px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: white;
+	border: 2px solid #ffff99;
+	margin: 2px;
+	padding: 2px;
+}
+
+/*
+	Mise en page des nouvelles du département.
+	<div id="nouvelles">...</div>
+*/
+#nouvelles{
+	position: absolute;
+	left: 160px;
+	top: 209px;
+	width: 838px;
+	height: 300px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 14px;
+	text-align: justify;
+	background-color: white;
+	border: 2px solid #66ccff;
+	margin: 2px;
+	padding: 2px;
+}
+
+/*
+	Positionnement de la vidéo de présentation sur l'accueil.
+	<div id="video-presentation">...</div>
+*/
+#video-presentation{
+	position: absolute;
+	left: 160px;
+	top: 521px;
+	width: 838px;
+	text-align: center;
+	background-color: white;
+	border: 2px solid #66ccff;
+	margin: 2px;
+	padding: 2px;
+}
+
+/*
+	Positionnement de la table sommaire.
+	<div id="sommaire">...</div>
+*/
+#sommaire{
+	position: absolute;
+	left: 160px;
+	top: 209px;
+	margin: 0;
+	padding: 0;
+}
+
+/*
+	Mise en page de la table sommaire.
+	Les "class" nous permet de regrouper les <th>, <td>, etc., de la table pour les modifier en même temps;
+	cela nous permet aussi de créer plusieurs tables avec des propriétés différentes pour chacune d'elle.
+	<div class="table-sommaire">...</div>
+*/
+.table-sommaire{
+	float: left;
+	width: 400px;
+	height: 300px;
+	background-color: white;
+	border: 2px solid #66ccff;
+	margin: 2px;
+	padding: 2px;
+}
+
+/*
+	Mise en page du titre de la table sommaire.
+	<div class="th-st">...</div>
+*/
+.th-st{
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 2px;
+}
+
+/*
+	Mise en page des titres de colonne de la table sommaire.
+	<div class="th-sst">...</div>
+*/
+.th-sst{
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/*
+	Mise en page de la première colonne.
+	<div class="td-s1">...</div>
+*/
+.td-s1{
+	width: 250px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+/*
+	Mise en page de la deuxième et la troisième colonne.
+	<div class="td-s2">...</div>
+*/
+.td-s2{
+	width: 75px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+/*
+	Mise en page de la description de Benoît.
+	<div id="benoit-desrosiers">...</div>
+*/
+#benoit-desrosiers{
+	position: absolute;
+	left: 160px;
+	top: 209px;
+	max-width: 838px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 14px;
+	text-align: justify;
+	background-color: white;
+	border: 2px solid #66ccff;
+	margin: 2px;
+	padding: 2px;
+}
+
+/*
+	Positionnement de la photo de Benoît.
+	<img id="img-benoit-desrosiers">...</div>
+*/
+#img-benoit-desrosiers{
+	float: left;
+	width: 30%;
+	padding: 10px;
+}
+
+/*
+	Mise en page de la description du cours "Conception et développement d'une
+	application hypermédia I".
+	<div id="CN1">...</div>
+*/
+#CN1{
+	position: absolute;
+	left: 160px;
+	top: 209px;
+	max-width: 838px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 14px;
+	text-align: justify;
+	background-color: white;
+	border: 2px solid #66ccff;
+	margin: 2px;
+	padding: 2px;
+}
+
+/*
+	Mise en page de l'album.
+	<div id="album">...</div>
+*/
+#album{
+	position: absolute;
+	left: 160px;
+	top: 209px;
+	max-width: 842px;
+	margin: 2px;
+	padding: 2px;
+}
+
+/*
+	Positionnement des photos.
+	<div class="activites">...</div>
+*/
+.activites{
+	float: left;
+	width: 160px;
+	height: 140px;
+	margin: 2px;
+}
