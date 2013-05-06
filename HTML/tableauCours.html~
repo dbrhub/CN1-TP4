@@ -65,10 +65,8 @@
 				unLi.appendChild(unLien);
 				unUl.appendChild(unLi);
 				liSession.appendChild(unUl);
-				while (cours[i] != "finCours") {
-
-				}
 			}
+			while (cours[i] != "finCours") {
 		</script>
 	</body>
 
